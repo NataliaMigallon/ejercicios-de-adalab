@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 12;/*repeat (12, 1sfr);*/
+    grid-template-rows: 20% 60% 20%;
+}
+.item {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    background-color: pink;
+    grid-column: span 12;
+}
+.menu {
+    background-color: rebeccapurple;
+    grid-column: span 4;
+}
+.content {
+    background-color: coral;
+    grid-column: span 8;
+}
+.footer {
+    background-color: darkcyan;
+    grid-column: span 12;
+}

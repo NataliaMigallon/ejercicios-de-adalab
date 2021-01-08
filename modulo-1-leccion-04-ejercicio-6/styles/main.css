@@ -1,0 +1,31 @@
+.page {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+.header {
+    background-color: red;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.aside1 {
+    background-color: yellow;
+    width: 25%;
+    text-align: center;
+}
+.text {
+    background-color: blue;
+    width: 50%;
+    text-align: justify;
+}
+.aside2 {
+    background-color: deeppink;
+    width: 25%;
+    text-align: center;
+}
+.footer {
+    background-color: forestgreen;
+    text-align: center;
+}

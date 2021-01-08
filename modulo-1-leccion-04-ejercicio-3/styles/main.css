@@ -1,0 +1,15 @@
+.container {
+    box-sizing: border-box;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home {
+    padding: 0 0 0 20px;
+}
+.contacto {
+    padding: 0 20px 0 0;
+}
