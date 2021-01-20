@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+.container {
+    margin: 100px 0 0 100px;
+}
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    transition: background-color ease 1s;
+    transition: border-radius ease 1s box-shadow ease 1s;
+}
+.transition-box:hover {
+    background-color: darkblue;
+    border-radius: 30%;
+    box-shadow: rgb(104, 218, 10) 5px 5px 10px;
+}
+.animation {
+    padding-top: 50px;
+}
+.animation-box{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: nata-sa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes nata-sa{
+    from {
+        background-color: pink;
+        transform: rotate(0);
+    }
+    30% {
+        background-color: purple;
+        transform: rotate(45deg);
+    }
+    60% {
+        background-color: black;
+        transform: rotate(90deg);
+    }
+    75% {
+        transform: scale(2);
+    }
+    90% {
+        background-color: grey;
+    }
+}
