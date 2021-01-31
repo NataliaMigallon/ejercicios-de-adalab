@@ -1,14 +1,15 @@
 'use strict';
 
-const doScroll = document.querySelector(".scroll");
+const scrollElement = document.querySelector('.scroll');
 
-window.onscroll = function (e){
+function handleScroll() {
     if(window.scrollY > 250){
-        doScroll.classList.add("blue");
-        doScroll.classList.remove("yellow");
-    }else{
-        doScroll.classList.remove("blue");
-        doScroll.classList.add("yellow");
+        scrollElement.classList.add('red');
+        scrollElement.classList.remove('green');
+    } else {
+        scrollElement.classList.remove('red');
+        scrollElement.classList.add('green');
     }
-    
 }
+
+window.addEventListener('scroll', handleScroll);

@@ -10,4 +10,4 @@ const resulFinal = media(10,10,10,10);
  */
 console.log(resulFinal);
 const AIURA = document.querySelector('body');
-AIURA.innerHTML += resulFinal;
+AIURA.innerHTML = resulFinal;

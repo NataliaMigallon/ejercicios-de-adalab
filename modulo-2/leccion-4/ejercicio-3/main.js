@@ -5,7 +5,7 @@ function TICKET(a) {
     const sinIVA = a - (a * 0.21);
     const IVA = a * 0.21;
     const TOTAL = a;
-    const result = `Precio sin IVA: ${sinIVA}, IVA: ${IVA}, y Total: ${TOTAL}.`;
+    const result = `Precio sin IVA: ${sinIVA}, con IVA: ${IVA}, y precio total: ${TOTAL}.`;
     return result
 }
 const ticketFinal = TICKET(12);
@@ -21,7 +21,7 @@ element.innerHTML = ticketFinal;
     const IVA = a * 0.21;
     const TOTAL = a;
 
-    const result = `Precio sin IVA: ${sinIVA}, IVA: ${IVA}, y Total: ${TOTAL}.`;
+    const result = `Precio sin IVA: ${sinIVA}, con IVA: ${IVA}, y precio total: ${TOTAL}.`;
     const element = document.querySelector('body');
     element.innerHTML = result;
 }

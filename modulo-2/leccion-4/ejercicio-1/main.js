@@ -9,4 +9,4 @@ function multiplication(a,b) {
 const resultFinal = multiplication(5,5);
 
 const SOCORRO = document.querySelector('body');
-SOCORRO.innerHTML += resultFinal;
+SOCORRO.innerHTML = resultFinal;
