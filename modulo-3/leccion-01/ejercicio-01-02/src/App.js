@@ -1,5 +1,4 @@
-/* import logo from "./logo.svg"; */
-import profile_photo from "./profile_photo.JPG";
+import profile_photo from "./images/Barn-Owl-Isabella.jpg";
 import "./App.css";
 
 function App() {

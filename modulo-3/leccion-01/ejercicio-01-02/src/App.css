@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.profile_info {
+  margin: 30px;
+  color: gray;
+}
+.profile_photo {
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  margin: 30px;
+}
+.text {
+  color: gray;
+  margin: 30px;
+}
+.container_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+.read_more {
+  color: gray;
+  opacity: 0.4;
+}
+.likes {
+  color: gray;
+  order: 1;
+}
+.heart_icon {
+  color: red;
+  order: 2;
+}
