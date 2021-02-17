@@ -3,9 +3,6 @@ import profile_photo from "./images/Barn-Owl-Isabella.jpg";
 import "./App.css";
 
 class MediaCard extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const header = (
       <header className="App-header">
