@@ -1,0 +1,13 @@
+* {
+  margin: 20px;
+}
+.onion {
+  width: 100%;
+  height: 100vh;
+}
+.red {
+  background-color: red;
+}
+.hidden {
+  display: none;
+}
