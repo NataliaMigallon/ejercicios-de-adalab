@@ -3,19 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App {
+.page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
-.blue {
-  background-color: blue;
-  width: 500px;
-  height: 500px;
+.btn {
+  margin: 10px;
 }
-.red {
-  background-color: red;
-  width: 500px;
-  height: 500px;
+.age {
+  margin: 10px;
+}
+.btn2 {
+  margin: 10px;
+}
+.presents {
+  margin: 10px;
 }
