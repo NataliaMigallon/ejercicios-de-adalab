@@ -18,7 +18,7 @@ class Food extends React.Component {
   }
 }
 Food.propTypes = {
-  name: PropTypes.number.isRequired,
+  name: PropTypes.number.isRequired, //la consola detecta un error (buscado)
   description: PropTypes.string,
   quantity: PropTypes.number,
   category: PropTypes.string.isRequired,
