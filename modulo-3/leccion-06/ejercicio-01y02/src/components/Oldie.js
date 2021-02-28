@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../stylesheets/App.scss";
 
 function Oldie() {
-  const [age, setAge] = useState(35);
+  const [age, setAge] = useState(35); // hooks de estado. setAge es el nombre de la función que yo quiero. Pero si el primero es age el segundo tiene que tener age despues de set.
   const handleAge = () => {
     setAge(age + 1);
   };
